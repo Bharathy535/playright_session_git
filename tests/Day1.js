@@ -56,3 +56,4 @@ length = 6;
 width = 3;
 Perimeter = 2*(length+width);
 console.log('Perimeter of rectangle '+Perimeter);
+console.log('added for git')
