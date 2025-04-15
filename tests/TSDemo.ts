@@ -1,7 +1,10 @@
 //Task 1 - Declare a variable with a specific type, e.g., `username` (`string`) and `score` (`number`).
 console.log('Task 1');
+//variable declaration
 let inputName: string = 'Bharathy Munusamy';
+//variable assign
 let score: number = 220;
+//print function
 console.log("userName is "+inputName, '&', 'score is '+score);
 
 //Task 2 - Declare a variable that uses a union type and can hold either a number or a string.
@@ -19,7 +22,7 @@ for (let i = 0; i < arrayOfNumbers.length; i++) {
 
 //Task 4 - Subtraction with Type Declaration:- Declare 2 variables `num1` & `num2` with type `number`. Assign values to them and print their difference
 console.log('Task 4');
-let num1:number = 18;
+let num1:number=18;
 let num2:number = 8;
 let differenceOfNumbers = num1 - num2;
 console.log(`Difference of ${num1} & ${num2} is `+differenceOfNumbers);
